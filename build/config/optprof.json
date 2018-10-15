@@ -10,19 +10,6 @@
           ]
         },
         {
-          "container": "WinForms",
-          "testCases": [
-            "WinForms.OptProfTests.winforms_largeform_vb",
-            "WinForms.OptProfTests.winforms_largeform_cs"
-          ]
-        },
-        {
-          "container": "TeamEng",
-          "testCases": [
-            "TeamEng.OptProfTest.vs_debugger_start_no_build_cs_scribble_IBC"
-          ]
-        },
-        {
           "container": "VSPE",
           "testCases": [
             "VSPE.OptProfTests.vs_perf_designtime_ide_searchtest",
@@ -43,19 +30,6 @@
           "testCases": [
             "DDRIT.RPS.CSharp.CSharpTest.BuildAndDebugging"
           ]
-        },
-        {
-          "container": "WinForms",
-          "testCases": [
-            "WinForms.OptProfTests.winforms_largeform_vb",
-            "WinForms.OptProfTests.winforms_largeform_cs"
-          ]
-        },
-        {
-          "container": "TeamEng",
-          "testCases": [
-            "TeamEng.OptProfTest.vs_debugger_EE_Managed_CSLambda"
-          ]
         }
       ]
     },
@@ -67,19 +41,6 @@
           "testCases": [
             "DDRIT.RPS.CSharp.CSharpTest.BuildAndDebugging"
           ]
-        },
-        {
-          "container": "WinForms",
-          "testCases": [
-            "WinForms.OptProfTests.winforms_largeform_vb",
-            "WinForms.OptProfTests.winforms_largeform_cs"
-          ]
-        },
-        {
-          "container": "TeamEng",
-          "testCases": [
-            "TeamEng.OptProfTest.vs_debugger_EE_Managed_CSLambda"
-          ]
         }
       ]
     },
@@ -90,19 +51,6 @@
           "container": "DDRIT.RPS.CSharp",
           "testCases": [
             "DDRIT.RPS.CSharp.CSharpTest.EditingAndDesigner"
-          ]
-        },
-        {
-          "container": "WinForms",
-          "testCases": [
-            "WinForms.OptProfTests.winforms_largeform_vb",
-            "WinForms.OptProfTests.winforms_largeform_cs"
-          ]
-        },
-        {
-          "container": "TeamEng",
-          "testCases": [
-            "TeamEng.OptProfTest.vs_debugger_start_no_build_cs_scribble_IBC"
           ]
         }
       ]
