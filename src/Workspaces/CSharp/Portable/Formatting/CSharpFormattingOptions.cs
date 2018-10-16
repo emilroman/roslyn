@@ -52,7 +52,7 @@ namespace Microsoft.CodeAnalysis.CSharp.Formatting
                 KeyValuePairUtil.Create("anonymous_methods", NewLineOption.AnonymousMethods),
                 KeyValuePairUtil.Create("control_blocks", NewLineOption.ControlBlocks),
                 KeyValuePairUtil.Create("anonymous_types", NewLineOption.AnonymousTypes),
-                KeyValuePairUtil.Create("object_collection_array_initalizers", NewLineOption.ObjectCollectionsArrayInitializers),
+                KeyValuePairUtil.Create("object_collection_array_initializers", NewLineOption.ObjectCollectionsArrayInitializers),
                 KeyValuePairUtil.Create("lambdas", NewLineOption.Lambdas),
                 KeyValuePairUtil.Create("local_functions", NewLineOption.LocalFunction),
             });
