@@ -388,6 +388,8 @@ namespace Microsoft.CodeAnalysis.CSharp
                     return SyntaxKind.AddressOfExpression;
                 case SyntaxKind.AsteriskToken:
                     return SyntaxKind.PointerIndirectionExpression;
+                case SyntaxKind.CaretToken:
+                    return SyntaxKind.IndexExpression;
                 default:
                     return SyntaxKind.None;
             }
@@ -411,6 +413,8 @@ namespace Microsoft.CodeAnalysis.CSharp
                     return SyntaxKind.PostIncrementExpression;
                 case SyntaxKind.MinusMinusToken:
                     return SyntaxKind.PostDecrementExpression;
+                case SyntaxKind.ExclamationToken:
+                    return SyntaxKind.SuppressNullableWarningExpression;
                 default:
                     return SyntaxKind.None;
             }
@@ -1332,6 +1336,8 @@ namespace Microsoft.CodeAnalysis.CSharp
                     return "%=";
                 case SyntaxKind.QuestionQuestionEqualsToken:
                     return "??=";
+                case SyntaxKind.DotDotToken:
+                    return "..";
 
                 // Keywords
                 case SyntaxKind.BoolKeyword:

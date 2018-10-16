@@ -303,9 +303,9 @@ namespace Roslyn.Test.Utilities.Desktop
             }
 
             var shouldSucceed = verification == Verification.Passes;
+            var emitData = GetEmitData();
             try
             {
-                var emitData = GetEmitData();
                 emitData.RuntimeData.PeverifyRequested = true;
                 emitData.Manager.PeVerifyModules(new[] { emitData.MainModule.FullName }, throwOnError: true);
                 if (!shouldSucceed)
@@ -317,7 +317,7 @@ namespace Roslyn.Test.Utilities.Desktop
             {
                 if (shouldSucceed)
                 {
-                    throw new Exception($"Verification failed: {ex.Message}");
+                    throw new Exception("Verification failed", ex);
                 }
             }
         }
